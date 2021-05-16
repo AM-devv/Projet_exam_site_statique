@@ -1,5 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 * {
   box-sizing: border-box;
+}
+
+.color-block {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+}
+.color-block.color-1 {
+  background: #18BFEF;
+}
+.color-block.color-2 {
+  background: #F6F6F6;
+}
+.color-block.color-3 {
+  background: #717981;
+}
+.color-block.color-neutral {
+  background: #4E403D;
+}
+.color-block.color-text {
+  background: #212931;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #212931;
+}
+
+a {
+  color: #212931;
+  text-decoration: underline dotted;
+}
+a:hover {
+  color: #18BFEF;
+  text-decoration: none;
+}
+
+hr {
+  height: 1px;
+  background: #717981;
+  margin: 3rem 0;
+  border: none;
+}
+
+code {
+  color: #212931;
+  background: #F6F6F6;
+  padding: #717981 1px solid;
+  border: #717981 1px solid;
+  border-radius: 5px;
+}
+
+h1, .h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212931;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 0.7rem 0;
+}
+
+h2, .h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212931;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 0.7rem 0;
+}
+
+h3, .h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212931;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 0.7rem 0;
+}
+
+h4, .h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212931;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 0.7rem 0;
 }
 
 @media screen and (min-width: 0) {
@@ -37,8 +128,30 @@
     margin: auto;
   }
 }
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 body {
-  background: radial-gradient(#4E403D, #212931);
+  background: radial-gradient(ellipse at top, #4E403D, #212931);
+}
+
+.main-content {
+  background: #fff;
+  padding: 2em;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=/app.66d5da61.css.map */

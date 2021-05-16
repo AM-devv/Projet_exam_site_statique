@@ -1,5 +1,28 @@
 @import './Axelize/index.scss';
 
 body{
-    background: radial-gradient($color-neutral, $color-text);
+    background: radial-gradient(ellipse at top, $color-neutral, $color-text);
+}
+
+//----------------------------------
+// MAIN HEADER
+//----------------------------------
+.main-header{
+
+}
+
+//----------------------------------
+// MAIN CONTENT
+//----------------------------------
+.main-content{
+    background: #fff;
+    padding: 2em;
+    border-radius: $border-radius-default;
+}
+
+//----------------------------------
+// MAIN FOOTER
+//----------------------------------
+.main-footer{
+
 }

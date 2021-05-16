@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+// PARAGRAPHES
+$font-1: 'Merriweather', serif;
+$font-color-default: $color-text;
+$font-size-default: 1.1rem;
+$font-weight-default: 400;
+$line-height-default: 1.65;
+// TITLES
+$font-2: 'Source Sans Pro', sans-serif;
+$font-color-h1: $color-text;
+$font-size-h1: 2.5rem;
+$font-weight-h1: 400;
+$line-height-h1: 1.2;
+$margin-h1: 0 0 .7rem 0;
+
+$font-size-h2: 1.5rem;
+$font-weight-h2: 400;
+$line-height-h2: 1.5;
+$margin-h2: 0 0 .7rem 0;
+
+$font-size-h3: 1.25rem;
+$font-weight-h3: 400;
+$line-height-h3: 1.5;
+$margin-h3: 0 0 .7rem 0;
+
+$font-size-h4: 1.1rem;
+$font-weight-h4: 400;
+$line-height-h4: 1.2;
+$margin-h4: 0 0 .7rem 0;
+
+// LINKS
+$link-color: $color-text;
+$link-decoration: underline dotted;
+$link-hover-color: $color-1;
+$link-hover-decoration: none;
+
+// CODE
+$code-color: $color-text;
+$code-background: $color-2;
+$code-padding: .3em;
+$code-border: $color-3 1px solid;
+$code-border-radius: $border-radius-default;
+
+// HR
+$hr-height: 1px;
+$hr-color: $color-3;
+$hr-margin: 3rem 0;
+
+//--------------------------
+// DEFAULT SPECIFICATIONS
+//--------------------------
+body{
+    font-family: $font-1;
+    font-size: $font-size-default;
+    font-weight: $font-weight-default;
+    line-height: $line-height-default;
+    color: $font-color-default;
+}
+
+a{
+    color: $link-color;
+    text-decoration: $link-decoration;
+    &:hover{
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+}
+
+hr{
+    height: $hr-height;
+    background: $hr-color;
+    margin: $hr-margin;
+    border: none;
+}
+
+code{
+    color: $code-color;
+    background: $code-background;
+    padding: $code-border;
+    border: $code-border;
+    border-radius: $code-border-radius;
+}
+
+h1, .h1 {
+    font-family: $font-2;
+    color: $font-color-h1;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-h1;
+    line-height: $line-height-h1;
+    margin: $margin-h1;
+}
+
+h2, .h2 {
+    font-family: $font-2;
+    color: $font-color-h1;
+    font-size: $font-size-h2;
+    font-weight: $font-weight-h2;
+    line-height: $line-height-h2;
+    margin: $margin-h2;
+}
+
+h3, .h3 {
+    font-family: $font-2;
+    color: $font-color-h1;
+    font-size: $font-size-h3;
+    font-weight: $font-weight-h3;
+    line-height: $line-height-h3;
+    margin: $margin-h3;
+}
+
+h4, .h4 {
+    font-family: $font-2;
+    color: $font-color-h1;
+    font-size: $font-size-h4;
+    font-weight: $font-weight-h4;
+    line-height: $line-height-h4;
+    margin: $margin-h4;
+}

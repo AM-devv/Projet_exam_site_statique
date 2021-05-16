@@ -6,7 +6,7 @@ $screen-sizes: (
      'xl': ('breakpoint' : 1200px,    'container-size': 1140px)
  );
 
-
+$border-radius-default: 5px;
 
 *{
     box-sizing: border-box;
