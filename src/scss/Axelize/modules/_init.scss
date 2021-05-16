@@ -1,3 +1,13 @@
+$screen-sizes: (
+    'xs': ('breakpoint' : 0,    'container-size': 90%),
+    's' : ('breakpoint' : 576px,    'container-size': 540px),
+    'm': ('breakpoint' : 768px,    'container-size': 720px),
+    'l': ('breakpoint' : 960px,    'container-size': 960px),
+     'xl': ('breakpoint' : 1200px,    'container-size': 1140px)
+ );
+
+
+
 *{
     box-sizing: border-box;
 }

@@ -1,0 +1,12 @@
+@use "sass:map";
+
+@each $size, $values in $screen-sizes {
+    @media screen and (min-width: map-get($values, 'breakpoint')){
+        .container{
+            width: 100%;
+            max-width: map-get($values,'container-size');
+            margin: auto;
+        }
+    }
+}
+
