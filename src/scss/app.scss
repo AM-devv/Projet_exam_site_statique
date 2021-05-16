@@ -1,1 +1,5 @@
 @import './Axelize/index.scss';
+
+body{
+    background: radial-gradient($color-neutral, $color-text);
+}
