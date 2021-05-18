@@ -148,6 +148,15 @@ body {
   background: radial-gradient(ellipse at top, #4E403D, #212931);
 }
 
+.main-header {
+  margin: 5rem 0;
+}
+.main-header--title1 {
+  color: white;
+  border: 3px solid white;
+  display: inline;
+}
+
 .main-content {
   background: #fff;
   padding: 2em;
