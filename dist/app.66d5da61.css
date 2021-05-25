@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -61,7 +61,7 @@ h1, .h1 {
   font-family: "Source Sans Pro", sans-serif;
   color: #212931;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.2;
   margin: 0 0 0.7rem 0;
 }
@@ -70,7 +70,7 @@ h2, .h2 {
   font-family: "Source Sans Pro", sans-serif;
   color: #212931;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.5;
   margin: 0 0 0.7rem 0;
 }
@@ -79,7 +79,7 @@ h3, .h3 {
   font-family: "Source Sans Pro", sans-serif;
   color: #212931;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.5;
   margin: 0 0 0.7rem 0;
 }
@@ -88,7 +88,7 @@ h4, .h4 {
   font-family: "Source Sans Pro", sans-serif;
   color: #212931;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.2;
   margin: 0 0 0.7rem 0;
 }
@@ -153,8 +153,9 @@ body {
 }
 .main-header--title1 {
   color: white;
-  border: 3px solid white;
-  display: inline;
+  border: 5px solid white;
+  display: inline-block;
+  padding: 1rem 1.75rem;
 }
 
 .main-content {

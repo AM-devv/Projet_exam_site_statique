@@ -11,8 +11,9 @@ body{
     margin: 5rem 0;
     &--title1{
         color: white;
-        border: 3px solid white;
-        display: inline;
+        border: 5px solid white;
+        display: inline-block;
+        padding: 1rem 1.75rem;
     }
 }
 
