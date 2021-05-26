@@ -17,13 +17,22 @@ body{
     }
 }
 
+//-----------------------------------
+// MAIN NAV
+//-----------------------------------
+.main-nav{
+    background: rgba(255,255,255,0.175);
+    font-family: $font-2;
+    font-weight: 900;
+}
+
 //----------------------------------
 // MAIN CONTENT
 //----------------------------------
 .main-content{
     background: #fff;
     padding: 2em;
-    border-radius: $border-radius-default;
+    
 }
 
 //----------------------------------

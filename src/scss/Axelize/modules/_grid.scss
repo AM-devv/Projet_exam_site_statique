@@ -1,0 +1,33 @@
+
+$gridValues: (
+    ('', 0, auto),
+    ('-sm', 576px, 540px),
+    ('-md', 768px, 720px),
+    ('-lg', 992px, 960px),
+    ('-xl', 1200px, 1140px),
+    ('-xxl', 1400px, 1320px)
+);
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem 1rem;
+    > * {
+        grid-column: span 12;
+        grid-row: span 1;
+    }
+}
+@each $label, $breakpoint, $containerWidth in $gridValues {
+    @media screen and (min-width:#{$breakpoint}) {
+        @for $i from 1 through 12 {
+            .col#{$label}-#{$i} {
+                grid-column: span + ' ' + #{$i};
+            }
+            .row#{$label}-#{$i} {
+                grid-row: span + ' ' + #{$i};
+            }
+        }
+    }
+}

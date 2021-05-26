@@ -1,0 +1,25 @@
+
+.pages{
+    margin: 0;
+    padding: 0;
+    li{
+        display: inline-block;
+        padding: 1em;
+        margin: 0;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        &:hover{
+            background: rgba(255, 255, 255, 0.500);
+        }
+        &.active{
+            background: white;
+            a{
+                color: $color-text;
+            }
+        }
+    }
+    
+}
+

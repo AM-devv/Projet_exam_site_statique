@@ -77,9 +77,8 @@ hr{
 code{
     color: $code-color;
     background: $code-background;
-    padding: $code-border;
+    padding: $code-padding;
     border: $code-border;
-    border-radius: $code-border-radius;
 }
 
 h1, .h1 {
@@ -116,4 +115,40 @@ h4, .h4 {
     font-weight: $font-weight-h4;
     line-height: $line-height-h4;
     margin: $margin-h4;
+}
+
+li{
+    margin: 1em;
+    margin-left: 0;
+}
+
+
+
+p{
+    margin-top: 2em;
+}
+
+blockquote{
+    border-left: 3px solid $color-3;
+    margin-left: 0;
+    padding-left: 2em;
+}
+
+.icon-list{
+    li{
+        display: inline;
+        text-decoration: none;
+    }
+    &.alternate-icon{
+        i{
+            border: 1px solid $color-3;
+            border-radius: 100%;
+            padding: 0.3em;
+        }
+        
+    }
+}
+
+.item-text{
+    margin-left: 2em;
 }
