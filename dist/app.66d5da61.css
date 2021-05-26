@@ -787,6 +787,27 @@ blockquote {
     grid-row: span 12;
   }
 }
+table {
+  width: 100%;
+}
+table thead {
+  font-family: "Source Sans Pro", sans-serif;
+}
+table thead th {
+  padding: 1em;
+}
+
+tbody td {
+  padding: 1em;
+}
+tbody tr:nth-child(2n+1) {
+  background-color: #F6F6F6;
+}
+
+tfoot td {
+  padding: 1em;
+}
+
 body {
   background: radial-gradient(ellipse at top, #4E403D, #212931);
 }

@@ -1,0 +1,29 @@
+
+$table-padding: 1em;
+
+
+
+table{
+    width: 100%;
+    thead{
+        th{
+            padding: $table-padding;
+        }
+        font-family: $font-2;
+    }
+}
+
+tbody{
+    td{
+        padding: $table-padding;
+    }
+    tr:nth-child(2n + 1){
+        background-color: $color-2;
+    }
+}
+
+tfoot{
+    td{
+        padding: $table-padding;
+    }
+}
