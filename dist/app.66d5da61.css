@@ -808,6 +808,50 @@ tfoot td {
   padding: 1em;
 }
 
+.button-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+.button-list li {
+  display: inline;
+  margin: 0;
+}
+
+.btn {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+  padding: 1em 2em;
+}
+.btn:hover {
+  border-color: #18BFEF;
+  color: #18BFEF;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #212931;
+  color: #F6F6F6;
+  border: 2px solid #212931;
+}
+
+.btn-light {
+  background-color: #F6F6F6;
+  color: #212931;
+  border: 2px solid #212931;
+}
+
+.btn-large {
+  padding: 1.5em 3em;
+}
+
+.btn-small {
+  padding: 0.5em 1.5em;
+}
+
+.btn-fit {
+  width: 100%;
+}
+
 body {
   background: radial-gradient(ellipse at top, #4E403D, #212931);
 }

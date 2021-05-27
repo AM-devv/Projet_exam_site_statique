@@ -1,0 +1,46 @@
+
+
+
+.button-list{
+    margin-left: 0;
+    padding-left: 0;
+    li{
+        display: inline;
+        margin: 0;
+    }
+}
+
+.btn{
+    font-family: $font-2;
+    font-weight: 900;
+    padding: 1em 2em;
+    &:hover{
+        border-color: $color-1;
+        color: $color-1;
+        cursor: pointer;
+    }
+}
+
+.btn-dark{
+    background-color: $color-text;
+    color: $color-2;
+    border: 2px solid $color-text;
+}
+
+.btn-light{
+    background-color: $color-2;
+    color: $color-text;
+    border: 2px solid $color-text;
+}
+
+.btn-large{
+    padding: 1.5em 3em;
+}
+
+.btn-small{
+    padding: 0.5em 1.5em;
+}
+
+.btn-fit{
+    width: 100%;
+}
