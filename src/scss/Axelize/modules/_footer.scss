@@ -1,0 +1,48 @@
+$border-footer: 1px solid $color-3;
+
+
+
+.primary-footer{
+    background-color: $color-2;
+    gap: 0;
+    section{
+        opacity: 0.6;
+    }
+    form{
+        padding: 2em;
+    }
+    input[type=text], input[type=email], textarea{
+        width: 100%;
+    }
+    
+}
+
+
+.border-left{
+    border-left: $border-footer;
+}
+
+.border-top{
+    border-top: $border-footer;
+}
+
+.border-right{
+    border-right: $border-footer;
+}
+
+.border-bottom{
+    border-bottom: $border-footer;
+}
+
+.footer-bloc{
+    height: 25%;
+    padding: 2em;
+}
+
+.footer-social{
+    margin: 0;
+    padding: 0;
+    li{
+        display: inline;
+    }
+}

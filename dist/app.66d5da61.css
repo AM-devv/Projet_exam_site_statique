@@ -111,6 +111,7 @@ pre {
   background-color: #F6F6F6;
   border: 1px solid #717981;
   padding: 2em;
+  overflow: hidden;
 }
 
 .icon-list li {
@@ -897,6 +898,49 @@ select {
 
 .float-text {
   margin-top: 0;
+}
+
+.primary-footer {
+  background-color: #F6F6F6;
+  gap: 0;
+}
+.primary-footer section {
+  opacity: 0.6;
+}
+.primary-footer form {
+  padding: 2em;
+}
+.primary-footer input[type=text], .primary-footer input[type=email], .primary-footer textarea {
+  width: 100%;
+}
+
+.border-left {
+  border-left: 1px solid #717981;
+}
+
+.border-top {
+  border-top: 1px solid #717981;
+}
+
+.border-right {
+  border-right: 1px solid #717981;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #717981;
+}
+
+.footer-bloc {
+  height: 25%;
+  padding: 2em;
+}
+
+.footer-social {
+  margin: 0;
+  padding: 0;
+}
+.footer-social li {
+  display: inline;
 }
 
 body {
