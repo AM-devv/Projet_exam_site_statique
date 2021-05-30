@@ -134,6 +134,12 @@ blockquote{
     padding-left: 2em;
 }
 
+pre{
+    background-color: $color-2;
+    border: 1px solid $color-3;
+    padding: 2em;
+}
+
 .icon-list{
     li{
         display: inline;
