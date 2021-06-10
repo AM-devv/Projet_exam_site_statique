@@ -1,6 +1,13 @@
-$border-footer: 1px solid $color-3;
+//------------------------
+// VARIABLES BORDER
+//------------------------
 
+//$border-footer: 2px solid $color-3;
+  $border-footer: 2px solid rgba(113, 121, 129, 0.5);
 
+//----------------------------
+// PRIMARY FOOTER WITH A FORM
+//----------------------------
 
 .primary-footer{
     background-color: $color-2;
@@ -17,6 +24,9 @@ $border-footer: 1px solid $color-3;
     
 }
 
+//--------------------------
+// EASY CLASS FOR BORDER
+//--------------------------
 
 .border-left{
     border-left: $border-footer;
@@ -34,6 +44,10 @@ $border-footer: 1px solid $color-3;
     border-bottom: $border-footer;
 }
 
+//------------------------
+// FOOTER SECTION
+//------------------------
+
 .footer-bloc{
     height: 25%;
     padding: 2em;
@@ -45,4 +59,10 @@ $border-footer: 1px solid $color-3;
     li{
         display: inline;
     }
+}
+
+.copyright_footer{
+    background-color: $color-text;
+    color: $color-2;
+    font-family: $font-2;
 }

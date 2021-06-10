@@ -1,3 +1,7 @@
+//------------------------------
+// EASY CLASS FOR FLOAT PICTURE
+//------------------------------
+
 .float-left{
     float: left;
     margin-right: 1em;
@@ -14,6 +18,20 @@
     margin-top: 0;
 }
 
+//---------------------------
+// PICTURE WITH SCALE EFFECT
+//---------------------------
+
 .full-picture{
     width: 100%;
+    transition: 300ms ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+        z-index: 1;
+        transition: 300ms ease-in-out;
+    }
+}
+
+.boxpicture{
+    overflow: hidden;
 }

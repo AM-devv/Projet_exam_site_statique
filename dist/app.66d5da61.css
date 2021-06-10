@@ -221,8 +221,8 @@ pre {
   text-decoration: none;
   padding: 1em;
 }
-.pages li:hover {
-  background: rgba(255, 255, 255, 0.5);
+.pages li a:hover {
+  color: #18BFEF;
 }
 .pages li.active {
   background: white;
@@ -240,10 +240,12 @@ pre {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 900;
   padding: 0.5em;
+  z-index: 2;
 }
 .trigger.on {
   background: #F6F6F6;
   color: #212931;
+  box-shadow: 0.5em 0.5em 0.5em #212931;
 }
 @media screen and (min-width: 992px) {
   .trigger {
@@ -281,7 +283,6 @@ pre {
     color: #212931;
   }
   .main-nav ul li a:hover {
-    background-color: #717981;
     color: #18BFEF;
   }
   .main-nav ul:first-of-type {
@@ -1004,6 +1005,16 @@ select {
 
 .full-picture {
   width: 100%;
+  transition: 300ms ease-in-out;
+}
+.full-picture:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  transition: 300ms ease-in-out;
+}
+
+.boxpicture {
+  overflow: hidden;
 }
 
 .primary-footer {
@@ -1021,19 +1032,19 @@ select {
 }
 
 .border-left {
-  border-left: 1px solid #717981;
+  border-left: 2px solid rgba(113, 121, 129, 0.5);
 }
 
 .border-top {
-  border-top: 1px solid #717981;
+  border-top: 2px solid rgba(113, 121, 129, 0.5);
 }
 
 .border-right {
-  border-right: 1px solid #717981;
+  border-right: 2px solid rgba(113, 121, 129, 0.5);
 }
 
 .border-bottom {
-  border-bottom: 1px solid #717981;
+  border-bottom: 2px solid rgba(113, 121, 129, 0.5);
 }
 
 .footer-bloc {
@@ -1047,6 +1058,12 @@ select {
 }
 .footer-social li {
   display: inline;
+}
+
+.copyright_footer {
+  background-color: #212931;
+  color: #F6F6F6;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 header .test1 {
@@ -1070,6 +1087,31 @@ header.is-visible .test1 {
 }
 header.is-visible .test2 {
   opacity: 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+.pagination a, .pagination span {
+  border-right: 2px solid #717981;
+  border-top: 2px solid #717981;
+  border-bottom: 2px solid #717981;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+}
+.pagination a:first-of-type {
+  background-color: #F6F6F6;
+  border-left: 2px solid #717981;
+}
+.pagination a:last-of-type {
+  width: 4em;
 }
 
 body {
@@ -1110,6 +1152,10 @@ body {
 
 .background {
   background: linear-gradient(#4E403D, #717981);
+}
+
+h2 a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=/app.66d5da61.css.map */

@@ -1,0 +1,25 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    a, span{
+        border-right: 2px solid $color-3;
+        border-top: 2px solid $color-3;
+        border-bottom: 2px solid $color-3;
+        width: 3em;
+        height: 3em;
+        line-height: 3em;
+        text-align: center;
+        text-decoration: none;
+        font-family: $font-2;
+        font-weight: 900;
+        
+    }
+    a:first-of-type{
+            background-color: $color-2;
+            border-left: 2px solid $color-3;
+    }
+    a:last-of-type{
+        width: 4em;
+    }
+}
