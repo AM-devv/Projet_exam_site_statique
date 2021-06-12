@@ -92,6 +92,24 @@ h4, .h4 {
   margin: 0 0 0.7rem 0;
 }
 
+h5, .h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212931;
+  font-size: 0.9rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 0.7rem 0;
+}
+
+h6, .h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212931;
+  font-size: 0.7rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 0.7rem 0;
+}
+
 li {
   margin: 1em;
   margin-left: 0;
@@ -121,7 +139,10 @@ pre {
 .icon-list.alternate-icon i {
   border: 1px solid #717981;
   border-radius: 100%;
-  padding: 0.3em;
+  padding: 0.4em;
+  height: 2em;
+  width: 2em;
+  text-align: center;
 }
 
 .item-text {

@@ -9,6 +9,7 @@ $line-height-default: 1.65;
 // TITLES
 $font-2: 'Source Sans Pro', sans-serif;
 $font-color-h1: $color-text;
+
 $font-size-h1: 3.5rem;
 $font-weight-h1: 900;
 $line-height-h1: 1.2;
@@ -28,6 +29,16 @@ $font-size-h4: 1.1rem;
 $font-weight-h4: 900;
 $line-height-h4: 1.2;
 $margin-h4: 0 0 .7rem 0;
+
+$font-size-h5: 0.9rem;
+$font-weight-h5: 900;
+$line-height-h5: 1.2;
+$margin-h5: 0 0 .7rem 0;
+
+$font-size-h6: 0.7rem;
+$font-weight-h6: 900;
+$line-height-h6: 1.2;
+$margin-h6: 0 0 .7rem 0;
 
 // LINKS
 $link-color: $color-text;
@@ -117,6 +128,24 @@ h4, .h4 {
     margin: $margin-h4;
 }
 
+h5, .h5 {
+    font-family: $font-2;
+    color: $font-color-h1;
+    font-size: $font-size-h5;
+    font-weight: $font-weight-h5;
+    line-height: $line-height-h5;
+    margin: $margin-h5;
+}
+
+h6, .h6 {
+    font-family: $font-2;
+    color: $font-color-h1;
+    font-size: $font-size-h6;
+    font-weight: $font-weight-h6;
+    line-height: $line-height-h6;
+    margin: $margin-h6;
+}
+
 li{
     margin: 1em;
     margin-left: 0;
@@ -150,7 +179,10 @@ pre{
         i{
             border: 1px solid $color-3;
             border-radius: 100%;
-            padding: 0.3em;
+            padding: 0.4em;
+            height: 2em;
+            width: 2em;
+            text-align: center;
         }
         
     }
